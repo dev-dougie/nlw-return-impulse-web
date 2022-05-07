@@ -26,8 +26,9 @@ routes.post('/feedbacks', async (req, res) => {
 
         return res.status(201).send()
     } catch (err) {
-        console.log('error', console.error();
+        console.log('error', console.error());
         return res.status(201).send()
+
     }
 });
 //SQLite, doesnt need install any aditional tool
